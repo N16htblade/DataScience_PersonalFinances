@@ -1,0 +1,37 @@
+Housing: 35%
+mortgage / taxes / strata / rent/ insurance / hydro
+
+Utilities: 5%
+phone / cell phone / gas / cable / internet
+
+Food: 10 – 20%
+groceries / personal care / baby needs
+
+Transportation: 15 – 20%
+bus / taxi / fuel / insurance / maintenance / parking
+
+Clothing: 3 – 5%
+for all members of the family
+
+Personal & Discretionary: 5 – 10%
+entertainment / recreation / education / tobacco/alcohol / eating out / gaming / hair cuts / hobbies
+
+Savings/Investing: 5 – 10%
+
+Debt Payments: 5 – 15%
+
+Old Code:
+
+#df.loc[df['Description2'].str.contains('QUESTRADE'), ['Description1', 'Description2']] = 'QUESTRADE'
+#df.loc[df['Description1'].str.contains('BALANCEPROTECTOR'), 'Description1'] = 'MONTHLY FEE'
+#print(df.head(20))
+
+category1 = {'HOUSE' : ['RENT', 'INSURANCE'],
+             'AUTO' : ['LOAN', 'GAS', 'AUTO INSURANCE'],
+             'BANKING' : ['QUESTRADE', 'MONTHLY FEE'],
+             'FOOD' : ['PROVIGO', 'IGA', 'METRO', 'POUTINE', 'PIZZA']}
+
+forward_category1 = {v:k for k, val in category1.items() for v in val}
+#df['Category1'] = df['Description1'].replace(forward_category1)
+
+df.fillna('None', inplace=True)
