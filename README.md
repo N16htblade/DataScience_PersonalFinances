@@ -1,5 +1,7 @@
 # budget
 Utilizes transaction history data to generate Personal Finance charts, trends in YTD income/expenses and comparison to recommended budgets.
+![alt text](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/image.jpg?raw=true)
+
 
 Requirements:
 - Python libraries, Pandas, mathplotlib, openpyxl, and a few others; please check import section; (#make this information more accurate)
