@@ -1,9 +1,9 @@
 # budget
-Utilizes transaction history data to generate Personal Finance charts, trends in expenses and still to add budgets.
+Utilizes transaction history data to generate Personal Finance charts, trends in YTD income/expenses and comparison to recommended budgets.
 
 Requirements:
 - transaction history in .csv format (currently only works with RBC data)
-- Excel
+- Excel for output
 
 How to:
 1. Download transaction history as .csv file from your bank account and add all files to Input folder.
@@ -11,6 +11,6 @@ How to:
 3. Inspect data in finalized excel file.
 
 Work in progress:
-- Add data to Main page, several planned improvements;
+- Add check to user input;
 - Improve code in several areas;
-- Two additional sheets planned.
+- build a front end.
