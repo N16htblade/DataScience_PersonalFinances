@@ -19,6 +19,14 @@ Work in progress:
 
 Screenshots:
 
-![Input Sample (Test data)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Input%20test%20sample.JPG?raw=true)
+Output Main Dash:
+
 ![Output Sample (Main Dash)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Outcome%20Main%20page.JPG?raw=true)
+
+Outpus Second sheet:
+
 ![Output Sample (Second page)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Output%20Second%20Page.JPG?raw=true)
+
+Input raw test data:
+
+![Input Sample (Test data)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Input%20test%20sample.JPG?raw=true)
