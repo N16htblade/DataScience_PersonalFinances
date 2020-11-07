@@ -20,18 +20,12 @@ Savings/Investing: 5 – 10%
 
 Debt Payments: 5 – 15%
 
-Old Code:
 
-#df.loc[df['Description2'].str.contains('QUESTRADE'), ['Description1', 'Description2']] = 'QUESTRADE'
-#df.loc[df['Description1'].str.contains('BALANCEPROTECTOR'), 'Description1'] = 'MONTHLY FEE'
-#print(df.head(20))
 
-category1 = {'HOUSE' : ['RENT', 'INSURANCE'],
-             'AUTO' : ['LOAN', 'GAS', 'AUTO INSURANCE'],
-             'BANKING' : ['QUESTRADE', 'MONTHLY FEE'],
-             'FOOD' : ['PROVIGO', 'IGA', 'METRO', 'POUTINE', 'PIZZA']}
-
-forward_category1 = {v:k for k, val in category1.items() for v in val}
-#df['Category1'] = df['Description1'].replace(forward_category1)
-
-df.fillna('None', inplace=True)
+mainCategories = {'Housing' : 'Rent, Insurance, Other.', 35%
+                  'Food': 'Groceries, Take-Out, Coffee, Other.', 15%
+                  'Transportation': 'Auto, AutoInsurance, Fuel, Other.', 17%
+                  'Personal': 'Gym, Hair, PersonalCare, Other.', 13%
+                  'Banking': 'Investing, Fee, Taxes, Other.', 10%
+                  'Entertainment': 'Netflix, Games, Movies, Other.', 5%
+                  'Utilities': 'Power, Internet, Phone, Other.'} 5%
