@@ -18,6 +18,7 @@ Work in progress:
 - build a front end;
 
 Screenshots:
-![Input Sample (Test data)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Input%20test%20sample.JPG)
-![Output Sample (Main Dash)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Outcome%20Main%20page.JPG)
-![Output Sample (Second page)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Output%20Second%20Page.JPG)
+
+![Input Sample (Test data)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Input%20test%20sample.JPG?raw=true)
+![Output Sample (Main Dash)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Outcome%20Main%20page.JPG?raw=true)
+![Output Sample (Second page)](https://github.com/N16htblade/DataScience_PersonalFinances/blob/main/Output%20Second%20Page.JPG?raw=true)
